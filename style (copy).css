@@ -1,0 +1,72 @@
+
+    body {
+        font-family: monospace;
+        margin: 0;
+        padding: 0;
+        background-color: #001000; 
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0; /* Add padding above and below the links */
+    }
+
+    .nav-links a {
+        color: #39FF14;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    header {
+        background-image: linear-gradient(45deg, #1c2c22, #1b765c);
+        color: #39FF14;
+        padding: 20px 0;
+        text-align: center;
+        animation: gradientAnimation 5s ease infinite alternate;
+    }
+
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 50%;
+        }
+        100% {
+            background-position: 100% 50%;
+        }
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .portfolio-item {
+        background-color: #001800;
+        color: #12f35d;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+        display: none;
+        background-color: #1b765c;
+        color: #39FF14;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    a {
+        color: #39FF14;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
